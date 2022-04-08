@@ -1,9 +1,9 @@
 # MongoDB Commerce Project
 
 # Contexto
-O objetivo do projeto é praticar todos os conceitos de SQL aprendidos sobre banco de dados relacionais, consulta e filtro de dados em um banco e também a manipular tabelas e suas informações. Para isso, será utilizado o banco de dados "Northwind".
+O objetivo do projeto é praticar todos os conceitos aprendidos sobre **MongoDB** já aprendidos até o momento. A ideia é trabalhar com o banco de dados commerce, que contém dados do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas.
 
-As resoluções dos requisitos podem ser encontrados em `./challenges`.
+As resoluções dos requisitos podem ser encontrados dentro da pasta `.challenges`.
 
 ## Tecnologias usadas
 
@@ -44,13 +44,9 @@ Desenvolvido usando:
 3. Crie uma branch a partir da branch `main`
   * `git checkout -b my-new-branch`
 
-4. Se divirta para fazer o que quiser :)
-
-==================================================================================================================================================================================================================================================================================================================
-
 ### Instruções para restaurar o banco de dados `commerce`
 
-1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como **_Connection refused_**, tente reiniciar sua instância ([veja como fazer isso aqui](https://app.betrybe.com/course/back-end/introducao-ao-mongodb/mongodb-introducao/d396e5a2-d5c9-4f3a-b723-1a1d3ea06b3d/conteudos/b9646f17-77fc-401e-bab5-421fdc37428e/conectando/f63aa7aa-ac8f-4253-bf76-7fc71e4eac5a?use_case=side_bar)).
+1. Abra o terminal e conecte-se à sua instância local do **MongoDB**.
 
 2. Agora que você tem certeza de que a sua instância está no ar e que você está conectado a ela, digite `exit`. Você voltará ao terminal para iniciar a importação dos dados.
 
@@ -61,11 +57,9 @@ Desenvolvido usando:
 
 - A execução desse script criará um banco de dados chamado `commerce` e importará os dados para a coleção `produtos`.
 
-⚠️ Como tanto esse script quanto o script de execução local dos testes (mostrado na [seção seguinte](#implementações-técnicas)), **restauram a base de dados `commerce`**, se atente a salvar seu progresso nos arquivos de desafio! ⚠️
-
 ---
 
-### Implementações técnicas
+### Realizando os testes
 
 Para executar localmente os testes, é preciso escrever o seguinte no seu terminal, estando na raiz do diretório do projeto:
 
